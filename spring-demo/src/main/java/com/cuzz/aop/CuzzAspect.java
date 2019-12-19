@@ -5,10 +5,7 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
-/**
- * @author cuzz@douyu.tv
- * @date 2019/12/11 15:35
- */
+
 @Aspect
 @Component
 public class CuzzAspect {

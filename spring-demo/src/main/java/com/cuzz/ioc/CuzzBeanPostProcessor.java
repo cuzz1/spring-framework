@@ -9,10 +9,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Objects;
 
-/**
- * @author cuzz@douyu.tv
- * @date 2019/12/10 13:45
- */
+
 @Component
 public class CuzzBeanPostProcessor implements BeanPostProcessor {
 

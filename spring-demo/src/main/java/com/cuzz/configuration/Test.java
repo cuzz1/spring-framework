@@ -1,4 +1,4 @@
-package com.cuzz.cycle;
+package com.cuzz.configuration;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Test {
 	public static void main(String[] args) {
 		AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
-		applicationContext.getBean(UserService.class).getIndexService();
+		AppConfig bean = applicationContext.getBean(AppConfig.class);
 
 	}
 }

@@ -5,10 +5,6 @@ import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.stereotype.Component;
 
-/**
- * @author cuzz@douyu.tv
- * @date 2019/12/9 13:49
- */
 @Component
 public class CuzzBeanFactoryPostProcessor implements BeanFactoryPostProcessor {
 	@Override

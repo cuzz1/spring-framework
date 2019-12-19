@@ -1,9 +1,6 @@
 package com.cuzz.aop;
 
-/**
- * @author cuzz@douyu.tv
- * @date 2019/12/10 13:56
- */
+
 public interface Singer {
 	void singing();
 }
